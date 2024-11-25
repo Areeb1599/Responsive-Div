@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: bisque;
+    text-align: center;
+    font-size: 30px;
+    padding: 45px;
+}
+.heading1{
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.para1{
+    text-align: center;
+    font-size: 20px;
+}
+.content1{
+    flex: 70%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+.aside{
+    background-color: cornflowerblue;
+    flex: 30%;
+    padding: 20px;
+}
+.para2{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+@media screen and (max-width:420px){
+    .aside{
+        display: none;
+    }
+}
